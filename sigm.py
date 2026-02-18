@@ -59,10 +59,10 @@ with st.sidebar:
 
     # Logo
     st.subheader("🖼️ Logo")
-    logo_x = st.number_input("Logo X", value=int(230), step=5)
-    logo_y = st.number_input("Logo Y", value=int(40), step=5)
-    logo_ancho_max = st.number_input("Logo ancho máx", value=400, step=5)
-    logo_alto_max = st.number_input("Logo alto máx", value=400, step=5)
+    logo_x = st.number_input("Logo X", value=int(290), step=5)
+    logo_y = st.number_input("Logo Y", value=int(90), step=5)
+    logo_ancho_max = st.number_input("Logo ancho máx", value=250, step=5)
+    logo_alto_max = st.number_input("Logo alto máx", value=250, step=5)
 
     # Decoración
     st.subheader("🧩 Decoración")
